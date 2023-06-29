@@ -1,0 +1,231 @@
+2016 - ok
+Você é autônomo?
+Quantos funcionários sua empresa ou organização possui?
+Seu empregador é principalmente uma empresa/organização de tecnologia?
+O seu empregador oferece benefícios de saúde mental como parte da cobertura de saúde?
+Você conhece as opções de cuidados de saúde mental disponíveis sob sua cobertura fornecida pelo empregador?
+Seu empregador já discutiu formalmente a saúde mental (por exemplo, como parte de uma campanha de bem -estar ou outra comunicação oficial)?
+O seu empregador oferece recursos para aprender mais sobre preocupações e opções de saúde mental para procurar ajuda?
+O seu anonimato está protegido se você optar por aproveitar os recursos de tratamento de saúde mental ou abuso de substâncias fornecidos pelo seu empregador?
+Se um problema de saúde mental o levasse a solicitar uma licença médica do trabalho, pedir que a licença seria: MUDAR NOME - ok
+Você acha que discutir um distúrbio de saúde mental com seu empregador teria consequências negativas? (EXCLUIR) - ok
+Você acha que discutir um problema de saúde física com seu empregador teria consequências negativas? (EXCLUIR) - ok
+Você se sentiria à vontade para discutir um distúrbio de saúde mental com seus colegas de trabalho? OK
+Você se sentiria confortável discutindo um distúrbio de saúde mental com seu (s) supervisor (s) direto (s)? OK
+Você acha que seu empregador leva a saúde mental tão a sério quanto a saúde física? (PENSAR NO INPUT)
+Você já ouviu falar ou observar consequências negativas para os colegas de trabalho que foram abertos sobre problemas de saúde mental em seu local de trabalho? (EXCLUIR) - ok
+Você estaria disposto a discutir um problema de saúde mental com seu (s) supervisor (s) direto (s)? OK
+Você estaria disposto a apresentar um problema de saúde física com um empregador em potencial em uma entrevista? OK
+Você traria um problema de saúde mental com um empregador em potencial em uma entrevista? MUDAR NOME - ok
+Você sente que ser identificado como uma pessoa com um problema de saúde mental prejudicaria sua carreira? (PENSAR)
+Você acha que os membros da equipe/colegas de trabalho o levariam mais negativamente se soubessem que você sofria de um problema de saúde mental? (TENTAR MESCLAR COM OUTRAS COLUNAS)
+Quão disposto você estaria em compartilhar com amigos e familiares que você tem uma doença mental? OK
+Você tem um histórico familiar de doença mental? OK
+Você já teve um distúrbio de saúde mental no passado? OK
+Você atualmente tem um distúrbio de saúde mental? OK
+
+Você foi diagnosticado com uma condição de saúde mental por um profissional médico? (TARGET)
+
+Você já procurou tratamento para um problema de saúde mental de um profissional de saúde mental? OK
+Se você tem um problema de saúde mental, sente que isso interfere no seu trabalho ao ser tratado de maneira eficaz? MUDAR NOME 
+Se você tem um problema de saúde mental, sente que isso interfere no seu trabalho quando não é tratado de maneira eficaz? MUDAR NOME
+Qual é a sua idade? OK
+Qual é o seu gênero? OK
+Qual das opções a seguir melhor descreve sua posição de trabalho? (EXCLUIR) - ok
+Você trabalha remotamente? (PENSAR)
+
+2017 - ok
+Você é autônomo?
+Quantos funcionários sua empresa ou organização possui?
+Seu empregador é principalmente uma empresa/organização de tecnologia?
+O seu papel principal na sua empresa está relacionado à tecnologia/TI?
+O seu empregador oferece benefícios de saúde mental como parte da cobertura de saúde?
+Você conhece as opções de cuidados de saúde mental disponíveis sob sua cobertura de saúde fornecida pelo empregador?
+Seu empregador já discutiu formalmente a saúde mental (por exemplo, como parte de uma campanha de bem -estar ou outra comunicação oficial)?
+O seu empregador oferece recursos para aprender mais sobre distúrbios de saúde mental e opções para procurar ajuda?
+O seu anonimato está protegido se você optar por aproveitar os recursos de tratamento de saúde mental ou abuso de substâncias fornecidos pelo seu empregador?
+Se um problema de saúde mental o levou a solicitar uma licença médica do trabalho, quão fácil ou difícil seria pedir essa licença?
+Você se sentiria mais confortável conversando com seus colegas de trabalho sobre sua saúde física ou sua saúde mental?
+Você se sentiria à vontade para discutir um problema de saúde mental com seu (s) supervisor (s) direto (s)?
+Você já discutiu sua saúde mental com seu empregador?
+Você se sentiria à vontade para discutir um problema de saúde mental com seus colegas de trabalho?
+Você já discutiu sua saúde mental com colegas de trabalho?
+Você já teve um colega de trabalho discutir a saúde mental de seu ou outro colega de trabalho com você?
+No geral, quanta importância seu empregador coloca na saúde física?
+No geral, quanta importância seu empregador coloca na saúde mental?
+Seu empregador era principalmente uma empresa/organização de tecnologia? EXCLUIR - ok
+Você estaria disposto a discutir sua saúde mental com seu (s) supervisor (s) direto (s)?
+Você atualmente tem um distúrbio de saúde mental?
+Você já teve um distúrbio de saúde mental no passado?
+Você já procurou tratamento para um distúrbio de saúde mental de um profissional de saúde mental?
+Você tem um histórico familiar de doença mental?
+Se você tem um distúrbio de saúde mental, com que frequência sente que isso interfere no seu trabalho ao ser tratado de maneira eficaz?
+Se você tem um distúrbio de saúde mental, com que frequência sente que isso interfere no seu trabalho quando não é tratado de maneira eficaz (ou seja, quando está experimentando sintomas)?
+Suas observações de como outro indivíduo que discutiu um problema de saúde mental tornou a probabilidade de você revelar um problema de saúde mental no seu local de trabalho atual?
+Quão disposto você estaria em compartilhar com amigos e familiares que você tem uma doença mental?
+Você estaria disposto a apresentar um problema de saúde física com um empregador em potencial em uma entrevista?
+Você traria sua saúde mental com um empregador em potencial em uma entrevista?
+Você é identificado abertamente no trabalho como uma pessoa com um problema de saúde mental?
+Se eles soubessem que você sofria de um distúrbio de saúde mental, como você acha que os membros da equipe/colegas de trabalho reagiriam? (EXCLUIR) - ok
+No geral, como você acha que o setor de tecnologia apoia funcionários com problemas de saúde mental?
+Descreva brevemente o que você acha que o setor como um todo e/ou empregadores poderia fazer para melhorar o apoio à saúde mental aos funcionários. (SEPARAR para uso em NPL) EXLCUIR - ok 
+Você estaria disposto a conversar com um de nós mais extensivamente sobre suas experiências com problemas de saúde mental no setor de tecnologia?(Observe que todas as respostas da entrevista seriam usadas anonimamente e apenas com sua permissão.) (EXCLUIR) - ok
+Qual é a sua idade?
+Qual é o seu gênero?
+
+2018 - ok
+Você é autônomo?
+Quantos funcionários sua empresa ou organização possui?
+Seu empregador é principalmente uma empresa/organização de tecnologia?
+O seu papel principal na sua empresa está relacionado à tecnologia/TI?
+O seu empregador oferece benefícios de saúde mental como parte da cobertura de saúde?
+Você conhece as opções de cuidados de saúde mental disponíveis sob sua cobertura de saúde fornecida pelo empregador?
+Seu empregador já discutiu formalmente a saúde mental (por exemplo, como parte de uma campanha de bem -estar ou outra comunicação oficial)?
+O seu empregador oferece recursos para aprender mais sobre distúrbios de saúde mental e opções para procurar ajuda?
+O seu anonimato está protegido se você optar por aproveitar os recursos de tratamento de saúde mental ou abuso de substâncias fornecidos pelo seu empregador?
+Se um problema de saúde mental o levou a solicitar uma licença médica do trabalho, quão fácil ou difícil seria pedir essa licença?
+Você se sentiria mais confortável conversando com seus colegas de trabalho sobre sua saúde física ou sua saúde mental?
+Você se sentiria à vontade para discutir um problema de saúde mental com seu (s) supervisor (s) direto (s)?
+Você já discutiu sua saúde mental com seu empregador?
+Você se sentiria à vontade para discutir um problema de saúde mental com seus colegas de trabalho?
+Você já discutiu sua saúde mental com colegas de trabalho?
+Você já teve um colega de trabalho discutir a saúde mental de seu ou outro colega de trabalho com você?
+No geral, quanta importância seu empregador coloca na saúde física?
+No geral, quanta importância seu empregador coloca na saúde mental?
+Seu empregador era principalmente uma empresa/organização de tecnologia? (EXCLUIR) - ok
+Você estaria disposto a discutir sua saúde mental com seu (s) supervisor (s) direto (s)?
+Você atualmente tem um distúrbio de saúde mental?
+Você já teve um distúrbio de saúde mental no passado?
+Você já procurou tratamento para um distúrbio de saúde mental de um profissional de saúde mental?
+Você tem um histórico familiar de doença mental?
+Se você tem um distúrbio de saúde mental, com que frequência sente que isso interfere no seu trabalho ao ser tratado de maneira eficaz?
+Se você tem um distúrbio de saúde mental, com que frequência sente que isso interfere no seu trabalho quando não é tratado de maneira eficaz (ou seja, quando está experimentando sintomas)?
+Suas observações de como outro indivíduo que discutiu um problema de saúde mental tornou a probabilidade de você revelar um problema de saúde mental no seu local de trabalho atual?
+Quão disposto você estaria em compartilhar com amigos e familiares que você tem uma doença mental?
+Você estaria disposto a apresentar um problema de saúde física com um empregador em potencial em uma entrevista?
+Você traria sua saúde mental com um empregador em potencial em uma entrevista?
+Você é identificado abertamente no trabalho como uma pessoa com um problema de saúde mental?
+Se eles soubessem que você sofria de um distúrbio de saúde mental, como você acha que os membros da equipe/colegas de trabalho reagiriam? (EXCLUIR) - ok
+No geral, como você acha que o setor de tecnologia apoia funcionários com problemas de saúde mental?
+Descreva brevemente o que você acha que o setor como um todo e/ou empregadores poderia fazer para melhorar o apoio à saúde mental aos funcionários. - EXCLUIR - ok
+Você estaria disposto a conversar com um de nós mais extensivamente sobre suas experiências com problemas de saúde mental no setor de tecnologia?(Observe que todas as respostas da entrevista seriam usadas anonimamente e apenas com sua permissão.) (EXCLUIR)
+Qual é a sua idade?
+Qual é o seu gênero?
+
+2019
+Você é autônomo?
+Quantos funcionários sua empresa ou organização possui?
+Seu empregador é principalmente uma empresa/organização de tecnologia?
+O seu papel principal na sua empresa está relacionado à tecnologia/TI?
+O seu empregador oferece benefícios de saúde mental como parte da cobertura de saúde?
+Você conhece as opções de cuidados de saúde mental disponíveis sob sua cobertura de saúde fornecida pelo empregador?
+Seu empregador já discutiu formalmente a saúde mental (por exemplo, como parte de uma campanha de bem -estar ou outra comunicação oficial)?
+O seu empregador oferece recursos para aprender mais sobre distúrbios de saúde mental e opções para procurar ajuda?
+O seu anonimato está protegido se você optar por aproveitar os recursos de tratamento de saúde mental ou abuso de substâncias fornecidos pelo seu empregador?
+Se um problema de saúde mental o levou a solicitar uma licença médica do trabalho, quão fácil ou difícil seria pedir essa licença?
+Você se sentiria mais confortável conversando com seus colegas de trabalho sobre sua saúde física ou sua saúde mental?
+Você se sentiria à vontade para discutir um problema de saúde mental com seu (s) supervisor (s) direto (s)?
+Você já discutiu sua saúde mental com seu empregador?
+Você se sentiria à vontade para discutir um problema de saúde mental com seus colegas de trabalho?
+Você já discutiu sua saúde mental com colegas de trabalho?
+Você já teve um colega de trabalho discutir a saúde mental de seu ou outro colega de trabalho com você?
+No geral, quanta importância seu empregador coloca na saúde física?
+No geral, quanta importância seu empregador coloca na saúde mental?
+Seu empregador era principalmente uma empresa/organização de tecnologia?
+Você estaria disposto a discutir sua saúde mental com seu (s) supervisor (s) direto (s)?
+Você atualmente tem um distúrbio de saúde mental?
+Você já teve um distúrbio de saúde mental no passado?
+Você já procurou tratamento para um distúrbio de saúde mental de um profissional de saúde mental?
+Você tem um histórico familiar de doença mental?
+Se você tem um distúrbio de saúde mental, com que frequência sente que isso interfere no seu trabalho ao ser tratado de maneira eficaz?
+Se você tem um distúrbio de saúde mental, com que frequência sente que isso interfere no seu trabalho quando não é tratado de maneira eficaz (ou seja, quando você está experimentando sintomas)?
+Suas observações de como outro indivíduo que discutiu um problema de saúde mental tornou a probabilidade de você revelar um problema de saúde mental no seu local de trabalho atual?
+Quão disposto você estaria em compartilhar com amigos e familiares que você tem uma doença mental?
+Você estaria disposto a apresentar um problema de saúde física com um empregador em potencial em uma entrevista?
+Você traria sua saúde mental com um empregador em potencial em uma entrevista?
+Você é identificado abertamente no trabalho como uma pessoa com um problema de saúde mental?
+Se eles soubessem que você sofria de um distúrbio de saúde mental, como você acha que os membros da sua equipe/colegas de trabalho reagiriam?
+No geral, como você acha que o setor de tecnologia apoia funcionários com problemas de saúde mental?
+Descreva brevemente o que você acha que o setor como um todo e/ou empregadores poderia fazer para melhorar o apoio à saúde mental aos funcionários.
+Você estaria disposto a conversar com um de nós mais extensivamente sobre suas experiências com problemas de saúde mental no setor de tecnologia?(Observe que todas as respostas da entrevista seriam usadas _Anonymly_ e somente com sua permissão.) (EXCLUIR)
+Qual é a sua idade?
+Qual é o seu gênero?
+
+2020
+Você é autônomo?
+Quantos funcionários sua empresa ou organização possui?
+Seu empregador é principalmente uma empresa/organização de tecnologia?
+O seu papel principal na sua empresa está relacionado à tecnologia/TI?
+O seu empregador oferece benefícios de saúde mental como parte da cobertura de saúde?
+Você conhece as opções de cuidados de saúde mental disponíveis sob sua cobertura de saúde fornecida pelo empregador?
+Seu empregador já discutiu formalmente a saúde mental (por exemplo, como parte de uma campanha de bem -estar ou outra comunicação oficial)?
+O seu empregador oferece recursos para aprender mais sobre distúrbios de saúde mental e opções para procurar ajuda?
+O seu anonimato está protegido se você optar por aproveitar os recursos de tratamento de saúde mental ou abuso de substâncias fornecidos pelo seu empregador?
+Se um problema de saúde mental o levou a solicitar uma licença médica do trabalho, quão fácil ou difícil seria pedir essa licença?
+Você se sentiria mais confortável conversando com seus colegas de trabalho sobre sua saúde física ou sua saúde mental?
+Você se sentiria à vontade para discutir um problema de saúde mental com seu (s) supervisor (s) direto (s)?
+Você já discutiu sua saúde mental com seu empregador?
+Você se sentiria à vontade para discutir um problema de saúde mental com seus colegas de trabalho?
+Você já discutiu sua saúde mental com colegas de trabalho?
+Você já teve um colega de trabalho discutir a saúde mental de seu ou outro colega de trabalho com você?
+No geral, quanta importância seu empregador coloca na saúde física?
+No geral, quanta importância seu empregador coloca na saúde mental?
+Seu empregador era principalmente uma empresa/organização de tecnologia?
+Você estaria disposto a discutir sua saúde mental com seu (s) supervisor (s) direto (s)?
+Você atualmente tem um distúrbio de saúde mental?
+Você já teve um distúrbio de saúde mental no passado?
+Você já procurou tratamento para um distúrbio de saúde mental de um profissional de saúde mental?
+Você tem um histórico familiar de doença mental?
+Se você tem um distúrbio de saúde mental, com que frequência sente que isso interfere no seu trabalho ao ser tratado de maneira eficaz?
+Se você tem um distúrbio de saúde mental, com que frequência sente que isso interfere no seu trabalho quando não é tratado de maneira eficaz (ou seja, quando você está experimentando sintomas)?
+Suas observações de como outro indivíduo que discutiu um problema de saúde mental tornou a probabilidade de você revelar um problema de saúde mental no seu local de trabalho atual?
+Quão disposto você estaria em compartilhar com amigos e familiares que você tem uma doença mental?
+Você estaria disposto a apresentar um problema de saúde física com um empregador em potencial em uma entrevista?
+Você traria sua saúde mental com um empregador em potencial em uma entrevista?
+Você é identificado abertamente no trabalho como uma pessoa com um problema de saúde mental?
+Se eles soubessem que você sofria de um distúrbio de saúde mental, como você acha que os membros da sua equipe/colegas de trabalho reagiriam?
+No geral, como você acha que o setor de tecnologia apoia funcionários com problemas de saúde mental?
+Descreva brevemente o que você acha que o setor como um todo e/ou empregadores poderia fazer para melhorar o apoio à saúde mental aos funcionários.
+Você estaria disposto a conversar com um de nós mais extensivamente sobre suas experiências com problemas de saúde mental no setor de tecnologia?(Observe que todas as respostas da entrevista seriam usadas _Anonymly_ e somente com sua permissão.) (EXCLUIR)
+Qual é a sua idade?
+Qual é o seu gênero?
+
+2021
+Você é autônomo?
+Quantos funcionários sua empresa ou organização possui?
+Seu empregador é principalmente uma empresa/organização de tecnologia?
+O seu papel principal na sua empresa está relacionado à tecnologia/TI?
+O seu empregador oferece benefícios de saúde mental como parte da cobertura de saúde?
+Você conhece as opções de cuidados de saúde mental disponíveis sob sua cobertura de saúde fornecida pelo empregador?
+Seu empregador já discutiu formalmente a saúde mental (por exemplo, como parte de uma campanha de bem -estar ou outra comunicação oficial)?
+O seu empregador oferece recursos para aprender mais sobre distúrbios de saúde mental e opções para procurar ajuda?
+O seu anonimato está protegido se você optar por aproveitar os recursos de tratamento de saúde mental ou abuso de substâncias fornecidos pelo seu empregador?
+Se um problema de saúde mental o levou a solicitar uma licença médica do trabalho, quão fácil ou difícil seria pedir essa licença?
+Você se sentiria mais confortável conversando com seus colegas de trabalho sobre sua saúde física ou sua saúde mental?
+Você se sentiria à vontade para discutir um problema de saúde mental com seu (s) supervisor (s) direto (s)?
+Você já discutiu sua saúde mental com seu empregador?
+Você se sentiria à vontade para discutir um problema de saúde mental com seus colegas de trabalho?
+Você já discutiu sua saúde mental com colegas de trabalho?
+Você já teve um colega de trabalho discutir a saúde mental de seu ou outro colega de trabalho com você?
+No geral, quanta importância seu empregador coloca na saúde física?
+No geral, quanta importância seu empregador coloca na saúde mental?
+Seu empregador era principalmente uma empresa/organização de tecnologia?
+Você estaria disposto a discutir sua saúde mental com seu (s) supervisor (s) direto (s)?
+Você atualmente tem um distúrbio de saúde mental?
+Você já teve um distúrbio de saúde mental no passado?
+Você já procurou tratamento para um distúrbio de saúde mental de um profissional de saúde mental?
+Você tem um histórico familiar de doença mental?
+Se você tem um distúrbio de saúde mental, com que frequência sente que isso interfere no seu trabalho ao ser tratado de maneira eficaz?
+Se você tem um distúrbio de saúde mental, com que frequência sente que isso interfere no seu trabalho quando não é tratado de maneira eficaz (ou seja, quando você está experimentando sintomas)?
+Suas observações de como outro indivíduo que discutiu um problema de saúde mental tornou a probabilidade de você revelar um problema de saúde mental no seu local de trabalho atual?
+Quão disposto você estaria em compartilhar com amigos e familiares que você tem uma doença mental?
+Você estaria disposto a apresentar um problema de saúde física com um empregador em potencial em uma entrevista?
+Você traria sua saúde mental com um empregador em potencial em uma entrevista?
+Você é identificado abertamente no trabalho como uma pessoa com um problema de saúde mental?
+Se eles soubessem que você sofria de um distúrbio de saúde mental, como você acha que os membros da sua equipe/colegas de trabalho reagiriam?
+No geral, como você acha que o setor de tecnologia apoia funcionários com problemas de saúde mental?
+Descreva brevemente o que você acha que o setor como um todo e/ou empregadores poderia fazer para melhorar o apoio à saúde mental aos funcionários.
+Você estaria disposto a conversar com um de nós mais extensivamente sobre suas experiências com problemas de saúde mental no setor de tecnologia?(Observe que todas as respostas da entrevista seriam usadas _Anonymly_ e somente com sua permissão.)
+Qual é a sua idade?
+Qual é o seu gênero?
+

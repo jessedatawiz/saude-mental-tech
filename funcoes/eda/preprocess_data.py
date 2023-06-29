@@ -64,7 +64,7 @@ def preprocess_data(ano) -> pd.DataFrame:
 
     # Remover colunas com mais de 50% de valores ausentes
     try:
-        path_cols_droped = f'./arquivos/output/eda/{ano}/cols_droped.txt'
+        path_cols_droped = f'./arquivos/pre_process/eda_part1/{ano}/cols_droped.txt'
         dir_out_cols = os.path.dirname(path_cols_droped)
         os.makedirs(dir_out_cols, exist_ok=True)
         df = drop_cols_50_perc(df, path_cols_droped)
@@ -90,7 +90,7 @@ def preprocess_data(ano) -> pd.DataFrame:
 
     # Salvar colunas com valores ausentes em um arquivo
     try:
-        path_val_ausentes = f'./arquivos/output/eda/{ano}/val_ausentes.txt'
+        path_val_ausentes = f'./arquivos/pre_process/eda_part1/{ano}/val_ausentes.txt'
         dir_out_miss = os.path.dirname(path_val_ausentes)
         os.makedirs(dir_out_miss, exist_ok=True)
 
@@ -101,6 +101,17 @@ def preprocess_data(ano) -> pd.DataFrame:
         print(f"O arquivo {path_val_ausentes} não foi encontrado.")
     except Exception as e:
         print(f"Ocorreu um erro ao verificar a porcentagem de valores faltantes: {e}")
+
+    # Salva df pré-processado
+    try:
+        path_df_pre = f"./arquivos/pre_process/{ano}.csv"
+        dir_df_pre = os.path.dirname(path_df_pre)
+        os.makedirs(dir_df_pre, exist_ok=True)
+        df.to_csv(path_df_pre, index=False)
+        
+    except Exception as e:
+        print("Ocorreu um erro ao salvar o dataframe intermediário.")
+        print("Erro: ", str(e))
 
 
     return df
