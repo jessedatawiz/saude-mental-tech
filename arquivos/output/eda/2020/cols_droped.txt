@@ -1,0 +1,66 @@
+Describe the conversation you had with your employer about your mental health, including their reactions and what actions were taken to address your mental health issue/questions.
+Describe the conversation with coworkers you had about your mental health including their reactions.
+Describe the conversation your coworker had with you about their mental health (please do not use names).
+Do you have medical coverage (private insurance or state-provided) that includes treatment of mental health disorders?
+Do you know local or online resources to seek help for a mental health issue?
+If you have been diagnosed or treated for a mental health disorder, do you ever reveal this to clients or business contacts?
+If you have revealed a mental health disorder to a client or business contact, how has this affected you or the relationship?
+If you have been diagnosed or treated for a mental health disorder, do you ever reveal this to coworkers or employees?
+If you have revealed a mental health disorder to a coworker or employee, how has this impacted you or the relationship?
+Do you believe your productivity is ever affected by a mental health issue?
+If yes, what percentage of your work time (time performing primary or secondary job functions) is affected by a mental health issue?
+Describe the conversation you had with your previous employer about your mental health, including their reactions and actions taken to address your mental health issue/questions.
+Describe the conversation you had with your previous coworkers about your mental health including their reactions.
+Describe the conversation your coworker had with you about their mental health (please do not use names)..1
+Have you ever been diagnosed with a mental health disorder?
+Anxiety Disorder (Generalized, Social, Phobia, etc)
+Mood Disorder (Depression, Bipolar Disorder, etc)
+Psychotic Disorder (Schizophrenia, Schizoaffective, etc)
+Eating Disorder (Anorexia, Bulimia, etc)
+Attention Deficit Hyperactivity Disorder
+Personality Disorder (Borderline, Antisocial, Paranoid, etc)
+Obsessive-Compulsive Disorder
+Post-Traumatic Stress Disorder
+Stress Response Syndromes
+Dissociative Disorder
+Substance Use Disorder
+Addictive Disorder
+Other
+Anxiety Disorder (Generalized, Social, Phobia, etc).1
+Mood Disorder (Depression, Bipolar Disorder, etc).1
+Psychotic Disorder (Schizophrenia, Schizoaffective, etc).1
+Eating Disorder (Anorexia, Bulimia, etc).1
+Attention Deficit Hyperactivity Disorder.1
+Personality Disorder (Borderline, Antisocial, Paranoid, etc).1
+Obsessive-Compulsive Disorder.1
+Post-traumatic Stress Disorder
+Stress Response Syndromes.1
+Dissociative Disorder.1
+Substance Use Disorder.1
+Addictive Disorder.1
+Other.1
+Anxiety Disorder (Generalized, Social, Phobia, etc).2
+Mood Disorder (Depression, Bipolar Disorder, etc).2
+Psychotic Disorder (Schizophrenia, Schizoaffective, etc).2
+Eating Disorder (Anorexia, Bulimia, etc).2
+Attention Deficit Hyperactivity Disorder.2
+Personality Disorder (Borderline, Antisocial, Paranoid, etc).2
+Obsessive-Compulsive Disorder.2
+Post-traumatic Stress Disorder.1
+Stress Response Syndromes.2
+Dissociative Disorder.2
+Substance Use Disorder.2
+Addictive Disorder.2
+Other.2
+Has being identified as a person with a mental health issue affected your career?
+How has it affected your career?
+Describe the circumstances of the badly handled or unsupportive response.
+Describe the circumstances of the supportive or well handled response.
+If there is anything else you would like to tell us that has not been covered by the survey questions, please use this space to do so.
+What US state or territory do you live in?
+What is your race?
+Other.3
+What US state or territory do you work in?
+Unnamed: 119
+Unnamed: 120
+Unnamed: 121
