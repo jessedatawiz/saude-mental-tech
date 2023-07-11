@@ -4,8 +4,6 @@ Existem tendências ou padrões significativos nos dados em relação aos desafi
 
 Como fatores como estresse relacionado ao trabalho, longas horas de trabalho e cultura do ambiente de trabalho se correlacionam com os resultados de saúde mental?
 
-Existem fatores demográficos ou relacionados ao trabalho específicos que contribuem para problemas de saúde mental na indústria de tecnologia?
-
 Podemos quantificar o impacto dos desafios de saúde mental na produtividade, engajamento e retenção dos funcionários na indústria de tecnologia?
 
 Existem diferenças significativas nas experiências de saúde mental entre diferentes sub-setores ou cargos na indústria de tecnologia?
