@@ -1,0 +1,113 @@
+Significado das Variáveis:
+
+Variável: autonomo
+Descrição: Indica se o respondente é autônomo ou não.
+
+Variável: num_func
+Descrição: Número de funcionários na empresa ou organização do respondente.
+
+Variável: emp_tec
+Descrição: Indica se o empregador do respondente é principalmente uma empresa ou organização de tecnologia.
+
+Variável: papel_tec
+Descrição: Indica se o papel principal do respondente na empresa está relacionado à tecnologia ou TI.
+
+Variável: beneficios_mental
+Descrição: Indica se o empregador do respondente oferece benefícios de saúde mental como parte da cobertura de saúde.
+
+Variável: conhecimento_opcoes_mental
+Descrição: Indica se o respondente conhece as opções de cuidados de saúde mental disponíveis sob a cobertura de saúde fornecida pelo empregador.
+
+Variável: discussao_formal_mental
+Descrição: Indica se o empregador do respondente já discutiu formalmente a saúde mental, como parte de uma campanha de bem-estar ou outra comunicação oficial.
+
+Variável: recursos_aprendizado_mental
+Descrição: Indica se o empregador do respondente oferece recursos para aprender mais sobre distúrbios de saúde mental e opções de busca de ajuda.
+
+Variável: anonimato_protegido
+Descrição: Indica se o anonimato do respondente é protegido caso ele opte por utilizar os recursos de tratamento de saúde mental ou abuso de substâncias fornecidos pelo empregador.
+
+Variável: dificuldade_licenca_mental
+Descrição: Mede a facilidade ou dificuldade que o respondente enfrentaria ao solicitar uma licença médica do trabalho devido a um problema de saúde mental.
+
+Variável: conforto_conversar_saude
+Descrição: Indica se o respondente se sentiria mais confortável conversando com seus colegas de trabalho sobre sua saúde física ou sua saúde mental.
+
+Variável: conforto_discutir_supervisor
+Descrição: Indica se o respondente se sentiria à vontade para discutir um problema de saúde mental com seu(s) supervisor(es) direto(s).
+
+Variável: discussao_saude_mental_emp
+Descrição: Indica se o respondente já discutiu sua saúde mental com seu empregador.
+
+Variável: conforto_discutir_colegas
+Descrição: Indica se o respondente se sentiria à vontade para discutir um problema de saúde mental com seus colegas de trabalho.
+
+Variável: discussao_saude_mental_colegas
+Descrição: Indica se o respondente já discutiu sua saúde mental com colegas de trabalho.
+
+Variável: discussao_saude_mental_colegas_outro
+Descrição: Indica se o respondente já teve um colega de trabalho discutir a saúde mental de si mesmo ou de outro colega de trabalho com ele.
+
+Variável: importancia_saude_fisica_emp
+Descrição: Avalia a importância que o empregador do respondente atribui à saúde física de seus funcionários de forma geral.
+
+Variável: importancia_saude_mental_emp
+Descrição: Avalia a importância que o empregador do respondente atribui à saúde mental de seus funcionários de forma geral.
+
+Variável: emp_tec_anterior
+Descrição: Indica se o empregador do respondente era principalmente uma empresa ou organização de tecnologia no passado.
+
+Variável: disposto_discutir_supervisor
+Descrição: Indica se o respondente estaria disposto a discutir sua saúde mental com seu(s) supervisor(es) direto(s).
+
+Variável: disturbio_saude_mental_atual
+Descrição: Indica se o respondente atualmente tem um distúrbio de saúde mental.
+
+Variável: disturbio_saude_mental_passado
+Descrição: Indica se o respondente já teve um distúrbio de saúde mental no passado.
+
+Variável: tratamento_profissional_mental
+Descrição: Indica se o respondente já procurou tratamento para um distúrbio de saúde mental com um profissional de saúde mental.
+
+Variável: historico_familiar_mental
+Descrição: Indica se o respondente tem histórico familiar de doença mental.
+
+Variável: interferencia_tratamento_eficaz
+Descrição: Avalia com que frequência o respondente sente que seu distúrbio de saúde mental interfere em seu trabalho quando está sendo tratado de maneira eficaz.
+
+Variável: interferencia_sem_tratamento_eficaz
+Descrição: Avalia com que frequência o respondente sente que seu distúrbio de saúde mental interfere em seu trabalho quando não está sendo tratado de maneira eficaz (ou seja, quando está experimentando sintomas).
+
+Variável: observacoes_discussao_mental
+Descrição: Avalia a probabilidade de o respondente revelar um problema de saúde mental em seu local de trabalho atual com base em suas observações de como outro indivíduo que discutiu um problema de saúde mental.
+
+Variável: disposto_compartilhar_amigos_familiares
+Descrição: Avalia a disposição do respondente em compartilhar com amigos e familiares que ele tem uma doença mental.
+
+Variável: disposto_apresentar_saude_entrevista
+Descrição: Indica se o respondente estaria disposto a apresentar um problema de saúde física a um potencial empregador durante uma entrevista.
+
+Variável: traria_saude_mental_entrevista
+Descrição: Indica se o respondente traria à tona um problema de saúde mental a um potencial empregador durante uma entrevista.
+
+Variável: identificado_abertamente_mental
+Descrição: Indica se o respondente é identificado abertamente no trabalho como uma pessoa com um problema de saúde mental.
+
+Variável: reacao_membros_equipe_mental
+Descrição: Avalia como o respondente acha que os membros de sua equipe/colegas de trabalho reagiriam se soubessem que ele sofre de um distúrbio de saúde mental.
+
+Variável: apoio_setor_tecnologia_mental
+Descrição: Avalia, de forma geral, como o respondente acredita que o setor de tecnologia apoia funcionários com problemas de saúde mental.
+
+Variável: sugestoes_apoio_mental
+Descrição: Descreve brevemente as sugestões do respondente sobre o que o setor como um todo e/ou os empregadores poderiam fazer para melhorar o apoio à saúde mental dos funcionários.
+
+Variável: idade
+Descrição: Indica a idade do respondente.
+
+Variável: genero
+Descrição: Indica o gênero do respondente.
+
+Variável: ano
+Descrição: Ano da pesquisa.
+``
