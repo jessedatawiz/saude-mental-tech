@@ -31,73 +31,79 @@ sys.path.append(parent_dir)
 
 from utils.utils import translate, drop_cols_high_miss_perc
 
-# Função principal para pré-processamento
-def preprocess_data(ano) -> pd.DataFrame:
+def call_preprocess_data():
+    # Função principal para pré-processamento
+    def preprocess_data(ano) -> pd.DataFrame:
 
-    
-    # Ler o arquivo CSV
-    try:   
-        arquivo_entrada = f'./mental_files/osmi_smt_{ano}.csv'
-        df = pd.read_csv(arquivo_entrada)
-    except FileNotFoundError:
-        print(f"O arquivo {arquivo_entrada} não foi encontrado.")
-    except Exception as e:
-        print(f"Ocorreu um erro ao ler o arquivo CSV: {arquivo_entrada}, {e}")
-
-    # Limpar os nomes das colunas das tags HTML
-    try:
-        df.columns = (df.columns.str.replace('<strong>', '')
-                                .str.replace('</strong>', '')
-                                .str.replace('<em>', '')
-                                .str.replace('</em>', ''))
-    except AttributeError:
-        print("Os nomes das colunas já foram limpos.")
-        pass
-    except Exception as e:
-        print(f"Ocorreu um erro ao limpar os nomes das colunas: {e}")
-
-    # Remover colunas com mais de 50% de valores ausentes
-    try:
-        path_cols_droped = f'./data/eda/{ano}/colunas_del_50_miss.txt'
-        dir_out_cols = os.path.dirname(path_cols_droped)
-        os.makedirs(dir_out_cols, exist_ok=True)
-        df = drop_cols_high_miss_perc(df, path_cols_droped)
-    except FileNotFoundError:
-        print(f"O arquivo {path_cols_droped} não foi encontrado.")
-    except Exception as e:
-        print(f"Ocorreu um erro ao remover as colunas com valores ausentes: {e}")
-
-
-    # Traduzir os nomes das colunas para o português
-    try:
-        df = translate(df, destination_language='pt')
-    except Exception as e:
-        print(f"Ocorreu um erro ao traduzir os nomes das colunas: {e}")
-
-    # Remover colunas específicas que contêm palavras-chave
-    try:
-        cols_descartar = df.columns.str.contains("EUA|Por que|anterior|anteriores|país|UTC|raça|ID")
-        df.drop(columns=df.columns[cols_descartar], inplace=True)
-        if ano == 2017 or ano == 2018:
-            coluna_excluir = "Você estaria disposto a conversar com um de nós mais extensivamente sobre suas experiências com problemas de saúde mental no setor de tecnologia?(Observe que todas as respostas da entrevista seriam usadas anonimamente e apenas com sua permissão.)"
-        else:
-            coluna_excluir = "Você estaria disposto a conversar com um de nós mais extensivamente sobre suas experiências com problemas de saúde mental no setor de tecnologia?(Observe que todas as respostas da entrevista seriam usadas _Anonymly_ e somente com sua permissão.)"
-        df.drop(columns=coluna_excluir, inplace=True)
-    except Exception as e:
-        print(f"Ocorreu um erro ao remover as colunas específicas: {e}")
-
-    # Salva df pré-processado
-    try:
-        path_df_pre = f"./data/preprocessed_files/{ano}/{ano}.csv"
-        dir_df_pre = os.path.dirname(path_df_pre)
-        os.makedirs(dir_df_pre, exist_ok=True)
-        df.to_csv(path_df_pre, index=False)
         
-    except Exception as e:
-        print("Ocorreu um erro ao salvar o dataframe intermediário.")
-        print("Erro: ", str(e))
+        # Ler o arquivo CSV
+        try:   
+            arquivo_entrada = f'./mental_files/osmi_smt_{ano}.csv'
+            df = pd.read_csv(arquivo_entrada)
+        except FileNotFoundError:
+            print(f"O arquivo {arquivo_entrada} não foi encontrado.")
+        except Exception as e:
+            print(f"Ocorreu um erro ao ler o arquivo CSV: {arquivo_entrada}, {e}")
 
-    return df
+        # Limpar os nomes das colunas das tags HTML
+        try:
+            df.columns = (df.columns.str.replace('<strong>', '')
+                                    .str.replace('</strong>', '')
+                                    .str.replace('<em>', '')
+                                    .str.replace('</em>', ''))
+        except AttributeError:
+            print("Os nomes das colunas já foram limpos.")
+            pass
+        except Exception as e:
+            print(f"Ocorreu um erro ao limpar os nomes das colunas: {e}")
+
+        # Remover colunas com mais de 50% de valores ausentes
+        try:
+            path_cols_droped = f'./data/eda/{ano}/colunas_del_50_miss.txt'
+            dir_out_cols = os.path.dirname(path_cols_droped)
+            os.makedirs(dir_out_cols, exist_ok=True)
+            df = drop_cols_high_miss_perc(df, path_cols_droped)
+        except FileNotFoundError:
+            print(f"O arquivo {path_cols_droped} não foi encontrado.")
+        except Exception as e:
+            print(f"Ocorreu um erro ao remover as colunas com valores ausentes: {e}")
+
+
+        # Traduzir os nomes das colunas para o português
+        try:
+            df = translate(df, destination_language='pt')
+        except Exception as e:
+            print(f"Ocorreu um erro ao traduzir os nomes das colunas: {e}")
+
+        # Remover colunas específicas que contêm palavras-chave
+        try:
+            cols_descartar = df.columns.str.contains("EUA|Por que|anterior|anteriores|país|UTC|raça|ID")
+            df.drop(columns=df.columns[cols_descartar], inplace=True)
+            if ano == 2017 or ano == 2018:
+                coluna_excluir = "Você estaria disposto a conversar com um de nós mais extensivamente sobre suas experiências com problemas de saúde mental no setor de tecnologia?(Observe que todas as respostas da entrevista seriam usadas anonimamente e apenas com sua permissão.)"
+            else:
+                coluna_excluir = "Você estaria disposto a conversar com um de nós mais extensivamente sobre suas experiências com problemas de saúde mental no setor de tecnologia?(Observe que todas as respostas da entrevista seriam usadas _Anonymly_ e somente com sua permissão.)"
+            df.drop(columns=coluna_excluir, inplace=True)
+        except Exception as e:
+            print(f"Ocorreu um erro ao remover as colunas específicas: {e}")
+
+        # Salva df pré-processado
+        try:
+            path_df_pre = f"./data/preprocessed_files/{ano}/{ano}.csv"
+            dir_df_pre = os.path.dirname(path_df_pre)
+            os.makedirs(dir_df_pre, exist_ok=True)
+            df.to_csv(path_df_pre, index=False)
+            
+        except Exception as e:
+            print("Ocorreu um erro ao salvar o dataframe intermediário.")
+            print("Erro: ", str(e))
+
+        print(f'Pré-processamento concluído -> {ano}.')
+        return None
+
+    # Executa a primeira parte do pré-processamento
+    for year in range(2017, 2022):
+        preprocess_data(year)
 
 
 """
@@ -153,29 +159,18 @@ def add_year_column(dfs):
 
 def save_merged_dataframe(df):
     try:
-        df_ = df.copy()
-        output_file = 'data/preprocessed_files/all_years/mental_health.csv'
-        df_.to_csv(output_file, index=False) 
+        df_copy = df.copy()
+
+        # Exclui a coluna destinada para nlp
+        # columns_nlp = ['Descreva brevemente o que você acha que o setor como um todo e/ou empregadores poderia fazer para melhorar o apoio à saúde mental aos funcionários.']
+        # df_copy = df_copy.drop(columns_nlp, axis=1)
+        output_file = 'data/preprocessed_files/all_years/mental_health_precleaned.csv'
+        df_copy.to_csv(output_file, index=False) 
         return None
 
     except Exception as e:
         # Tratamento de erros
         print(f"Erro ao salvar o dataframe mesclado: {str(e)}")
-        raise
-
-def save_text_dataframe(df):
-    try:
-       # Reservando o texto
-        df_ = df.copy()    
-        df_ = df['Descreva brevemente o que você acha que o setor como um todo e/ou empregadores poderia fazer para melhorar o apoio à saúde mental aos funcionários.']
-        df_.dropna(inplace=True)
-        output_file = 'data/nlp/mental_health_text.csv'
-        df_.to_csv(output_file, index=False)
-
-
-    except Exception as e:
-        # Tratamento de erros
-        print(f"Erro ao salvar o dataframe de texto: {str(e)}")
         raise
 
 def process_data():
@@ -192,10 +187,12 @@ def process_data():
         dfs = rename_columns(dfs=dfs)
         
         # Salvar as informações gerais das colunas recém-padronizadas
-        output_path = 'data/preprocessed_files/all_years/numero_participantes.png'
+        os.makedirs('data/preprocessed_files/all_years/images', exist_ok=True)
+
+        output_path = 'data/preprocessed_files/all_years/images/numero_participantes.png'
         plot_num_participantes(dfs, output_path)
 
-        output_path = 'data/preprocessed_files/all_years/numero_colunas.png'
+        output_path = 'data/preprocessed_files/all_years/images/numero_colunas.png'
         plot_num_cols(dfs, output_path)
 
         # Adicionar coluna 'Ano'
@@ -210,15 +207,12 @@ def process_data():
         output_path = 'data/preprocessed_files/all_years/valores_faltantes.txt'
         valores_miss_nulls_cols(merged_df, output_path, 'faltante')
 
-        # Salvar o novo dataframe
+        # Salvar o novo dataframe unificado, sem a coluna do nlp
         save_merged_dataframe(df=merged_df)
-
-        # Reservar o texto para análise NLP
-        save_text_dataframe(df=merged_df)
 
     except Exception as e:
         # Tratamento de erros
         print(f"Ocorreu um erro durante o processamento dos dados: {str(e)}")
         return None
 
-    print("Processamento dos dados concluído com sucesso!")
+    print("Processamento, parte 2, dos dados concluído.")

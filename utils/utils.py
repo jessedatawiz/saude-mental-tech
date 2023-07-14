@@ -85,8 +85,8 @@ def plot_num_cols(lista_df: list, path: str) -> None:
     num_cols = [df.shape[1] for df in lista_df]
     anos = list(range(2017, 2022))
     
-    # Configurações estéticas
-    cor = '#007ACC'
+    # Configurações estéticas (cor darkmagenta)
+    cor = '#8B008B'
     largura_barras = 0.5
 
     # Gráfico de colunas por ano
@@ -111,8 +111,8 @@ def plot_num_participantes(lista_df: list, path: str) -> None:
     num_linhas = [df.shape[0] for df in lista_df]
     anos = list(range(2017, 2022))
     
-    # Configurações estéticas
-    cor = '#007ACC'
+    # Configurações estéticas (cor darkmagenta)
+    cor = '#8B008B'
     largura_barras = 0.5
 
       # Gráfico de participantes por ano

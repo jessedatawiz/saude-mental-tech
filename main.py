@@ -1,18 +1,22 @@
 import os
 import time
-from data.preprocessing_data import preprocess_data, process_data
+from data.preprocessing_data import call_preprocess_data, process_data
+from data.edit_data import edit_dataframe
 
 def main():
     start_time = time.time()
 
     # Corpo da função main()
+
     # Executa a primeira parte do pré-processamento
-    # for year in range(2017, 2022):
-    #     preprocess_data(year)
+    call_preprocess_data()
 
     # Executa a segunda parte do processamento dos dados
     process_data()
     
+    # Executa a edição das colunas e variáveis
+    edit_dataframe()
+
     # Calcula o tempo de execução
     elapsed_time = time.time() - start_time
 
