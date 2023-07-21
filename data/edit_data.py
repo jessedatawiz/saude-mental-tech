@@ -61,6 +61,11 @@ def edit_dataframe():
             condition = (df['idade'] < 18) | (df['idade'] > 100)
             df['idade'] = np.where(condition, np.nan, df['idade'])
 
+            # Categoriza a idade
+            age_bins = [0, 20, 30, 40, 50, 60, 100]
+            age_labels = ['0-20', '21-30', '31-40', '41-50', '51-60', '61+']
+            df['idade'] = pd.cut(df['idade'], bins=age_bins, labels=age_labels, right=False)
+
         except KeyError:
             print(f"Erro: A coluna 'idade' não existe no DataFrame.")
         
@@ -169,7 +174,7 @@ def edit_dataframe():
 
         # Map the values according to the specifications
         df['disturbio_saude_mental_atual'] = df['disturbio_saude_mental_atual'].map({
-            "Don't Know": "I don't know",
+            "Don't Know": "Maybe",
             '0': 'No',
             'No': 'No',
             '1': 'Yes',
@@ -263,6 +268,9 @@ def edit_dataframe():
         'Maybe': 'Maybe',
         'Yes': 'Yes'
         })
+
+        # Excluindo a coluna reservada para nlp
+        df = df.drop(columns = 'sugestoes_apoio_mental')
 
         return df
     

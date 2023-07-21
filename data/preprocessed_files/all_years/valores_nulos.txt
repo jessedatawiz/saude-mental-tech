@@ -28,4 +28,4 @@ Se eles soubessem que você sofria de um distúrbio de saúde mental, como você
 No geral, como você acha que o setor de tecnologia apoia funcionários com problemas de saúde mental? (1.36% nulos)
 Descreva brevemente o que você acha que o setor como um todo e/ou empregadores poderia fazer para melhorar o apoio à saúde mental aos funcionários. (30.99% nulos)
 Qual é a sua idade? (0.27% nulos)
-Qual é o seu gênero? (1.63% nulos)
+Qual é o seu gênero? (1.47% nulos)
