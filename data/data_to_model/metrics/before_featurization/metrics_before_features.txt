@@ -1,0 +1,3 @@
+XGBoost -> base test: 
+Recall: 0.7404718693284936
+F1-score: 0.734991584492746

@@ -298,8 +298,8 @@ def edit_dataframe():
     df = modify_dataframe(df)
     
     # Salva o datafreame modificado
-    os.makedirs('data/data_ready_to_model', exist_ok=True)
-    save_path = 'data/data_ready_to_model/mental_health.csv'
+    os.makedirs('data/data_to_model', exist_ok=True)
+    save_path = 'data/data_to_model/mental_health.csv'
     df.to_csv(save_path, index=False)
 
     print('Edição dos dados concluída.')
