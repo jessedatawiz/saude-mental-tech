@@ -10,13 +10,13 @@ def main():
     # Corpo da função main()
 
     # Executa a primeira parte do pré-processamento
-    #call_preprocess_data()
+    call_preprocess_data()
 
     # Executa a segunda parte do processamento dos dados
-    #process_data()
+    process_data()
     
     # Executa a edição das colunas e variáveis
-    #edit_dataframe()
+    edit_dataframe()
 
     # Modelo XGBoost e feature selection
     call_data_main()

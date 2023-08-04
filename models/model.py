@@ -22,6 +22,24 @@ XGBOOST_THRESHOLD = 0.02
 
 # Plot function
 def plot_data(data, plot_type, file_name, features_importances=None):
+
+    if plot_type == 'correlation_matrix':
+        corr_matrix = data.corr()
+        # Generate a mask for the upper triangle
+        mask = np.triu(np.ones_like(corr_matrix, dtype=bool))
+
+        # Set the figure size
+        plt.figure(figsize=(20, 20))
+
+        sns.heatmap(corr_matrix, annot=False, annot_kws={"size": 12, "ha": 'center'},
+                    fmt=".1f", cmap="Purples", mask=mask, linewidths=0.5)
+        
+        # Rotates the ticks, to better visualization
+        plt.xticks(rotation=45, ha='right')
+        plt.yticks(rotation=45, ha='right')
+
+        plt.title('Correlation Matrix')
+
     if plot_type == 'confusion_matrix':
         sns.heatmap(data, annot=True, fmt="d", cmap="Purples", xticklabels=['0', '1', '2'], yticklabels=['0', '1', '2'])
         plt.xlabel('Predicted')
@@ -169,11 +187,14 @@ def xgboost_classification(txt_file_name, feature_threshold=None, value_threshol
 
 
 # Main function
-def data_main(txt_file, cm_file, features_file, pipeline_path, feature_threshold=None, value_threshold=None):
+def data_main(txt_file, corr_matrix_file, cm_file, features_file, pipeline_path, feature_threshold=None, value_threshold=None):
     # Roda o modelo
     best_model_, cm_, feature_importances_, X_ = xgboost_classification(txt_file, feature_threshold, value_threshold)
     # Salva o modelo
     save_pipeline(best_model_, pipeline_path)
+
+    # Correlation Matrix
+    plot_data(X_, 'correlation_matrix', corr_matrix_file)
     # Matriz de confusão
     plot_data(cm_, 'confusion_matrix', cm_file)
     # Features importance
@@ -189,9 +210,10 @@ def call_data_main():
     
     # Main function
     features_ = data_main('before_featurization/metrics_before_features.txt',
-            'before_featurization/confusion_matrix_before_features.png',
-            'before_featurization/feature_importance_before_features',
-            'before_featurization/xgboost_pipeline.pkl',
+                        'before_featurization/corr_matrix_before_features.png',
+                        'before_featurization/confusion_matrix_before_features.png',
+                        'before_featurization/feature_importance_before_features',
+                        'before_featurization/xgboost_pipeline.pkl',
             )
 
     """
@@ -200,9 +222,10 @@ def call_data_main():
     Testes já realizados apontam que não há perda de eficiência no modelo de predição
     """
     _ = data_main('after_featurization/metrics_after_features.txt',
-            'after_featurization/confusion_matrix_after_features.png',
-            'after_featurization/feature_importance_after_features',
-            'after_featurization/xgboost_pipeline.pkl',
+                'after_featurization/corr_matrix_after_features.png',
+                'after_featurization/confusion_matrix_after_features.png',
+                'after_featurization/feature_importance_after_features',
+                'after_featurization/xgboost_pipeline.pkl',
             features_,
             0.02
             )
