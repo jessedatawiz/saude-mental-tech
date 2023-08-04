@@ -114,7 +114,7 @@ def process_mental_health_data(df):
     imputed_df = pd.DataFrame(imputed_values, columns=df.columns)
     return imputed_df
 
-def xgboost_classification(txt_file_name, feature_threshold=None, value_threshold=None, test_size=0.3):
+def xgboost_classification(txt_file_name, best_params, feature_threshold=None, value_threshold=None, test_size=0.3):
     
     df = pd.read_csv(MAIN_FILE_PATH)
 
@@ -134,10 +134,10 @@ def xgboost_classification(txt_file_name, feature_threshold=None, value_threshol
 
     # Alreay tested model, não havendo features
     param_grid = {
-    'model__learning_rate': [1],
-    'model__max_depth': [2],
-    'model__n_estimators': [5],
-    'model__alpha': [0.05],
+    'model__learning_rate': [1, 0.1, 0.01, 0],
+    'model__max_depth': [1, 2, 5, 10, 15],
+    'model__n_estimators': [2, 5, 10, 20, 100],
+    'model__alpha': [0, 0.05, 0.1, 0.5],
     'model__eval_metric': ['auc'],
     }
 
@@ -147,19 +147,33 @@ def xgboost_classification(txt_file_name, feature_threshold=None, value_threshol
                                                         random_state=42)
 
     # Define a Pipeline para pré-processamento e XGBoost
-    xgboost_pipeline = Pipeline(steps=[
+    pipeline = Pipeline(steps=[
         ('model', xgb.XGBClassifier())
     ])    
 
 
-    cv = RepeatedStratifiedKFold(n_splits=5, n_repeats=5, random_state=42)
+    cv = RepeatedStratifiedKFold(n_splits=10, n_repeats=5, random_state=42)
     # GridSearchCV
-    grid_search = GridSearchCV(estimator=xgboost_pipeline, 
+    grid_search = GridSearchCV(estimator=pipeline, 
                                param_grid=param_grid, 
                                cv=cv)
     
     grid_search.fit(X_train, y_train)
+
+    # Get the best parameters and best model
+    best_params = grid_search.best_params_
+    best_score = grid_search.best_score_
     best_model = grid_search.best_estimator_
+
+    # Save the best parameters to a text file
+    output_file = best_params
+    with open(output_file, 'w') as f:
+        f.write("Best Parameters:\n")
+        for param, value in best_params.items():
+            f.write(f"{param}: {value}\n")
+        f.write(f"Best Score: {best_score}\n")
+
+
     # Fazer previsões no conjunto de teste
     y_pred = best_model.predict(X_test)
 
@@ -187,9 +201,9 @@ def xgboost_classification(txt_file_name, feature_threshold=None, value_threshol
 
 
 # Main function
-def data_main(txt_file, corr_matrix_file, cm_file, features_file, pipeline_path, feature_threshold=None, value_threshold=None):
+def data_main(txt_file, corr_matrix_file, cm_file, features_file, pipeline_path, best_params, feature_threshold=None, value_threshold=None):
     # Roda o modelo
-    best_model_, cm_, feature_importances_, X_ = xgboost_classification(txt_file, feature_threshold, value_threshold)
+    best_model_, best_params, cm_, feature_importances_, X_ = xgboost_classification(txt_file, best_params, feature_threshold, value_threshold)
     # Salva o modelo
     save_pipeline(best_model_, pipeline_path)
 
@@ -214,6 +228,7 @@ def call_data_main():
                         'before_featurization/confusion_matrix_before_features.png',
                         'before_featurization/feature_importance_before_features',
                         'before_featurization/xgboost_pipeline.pkl',
+                        'data/data_to_model/metrics/before_featurization/best_params.txt'
             )
 
     """
@@ -226,6 +241,7 @@ def call_data_main():
                 'after_featurization/confusion_matrix_after_features.png',
                 'after_featurization/feature_importance_after_features',
                 'after_featurization/xgboost_pipeline.pkl',
+                'data/data_to_model/metrics/after_featurization/best_params.txt',
             features_,
             0.02
             )
